@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.contenedor {
+    width: 40em;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px;
+}
+
+
+.imagenes {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#imagenpiedra {
+    width: 216px;
+    height: 216px; 
+    border: 10px solid rgb(209, 171, 117); 
+    outline: 2px solid black;
+}
+
+#cuadroDescripcion {
+    height: 30em;
+    border: 2px black solid;
+    background: linear-gradient(135deg, #c5d3e0, #dccbe4);
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#descripcion {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#piedra {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .imagenes {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center; 
+    }
+
+    #imagenpiedra {
+        width: 120px;
+        height: 120px; 
+        border: 5px solid rgb(209, 171, 117);
+    }
+
+    #cuadroDescripcion {
+        height: auto; 
+        padding: 10px;
+    }
+
+    #descripcion {
+        font-size: 18px;
+    }
+
+    #piedra {
+        font-size: 20px; 
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .contenedor {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .imagenes {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    #imagenpiedra {
+        width: 180px;
+        height: 180px; 
+        border: 8px solid rgb(209, 171, 117);
+    }
+
+    #cuadroDescripcion {
+        height: 25em;
+    }
+
+    #descripcion {
+        font-size: 22px;
+    }
+
+    #piedra {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (min-width: 901px) {
+    .contenedor {
+        width: 40em;
+        padding: 15px;
+    }
+
+    .imagenes {
+        width: fit-content;
+    }
+
+    #imagenpiedra {
+        width: 216px;
+        height: 216px; 
+        border: 10px solid rgb(209, 171, 117);
+    }
+
+    #cuadroDescripcion {
+        height: 30em;
+    }
+
+    #descripcion {
+        font-size: 25px;
+    }
+
+    #piedra {
+        font-size: 25px;
+    }
+}

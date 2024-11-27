@@ -1,0 +1,144 @@
+@charset "uft-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #81e2e6;
+}
+
+
+div{
+    width: 35em;
+    height: 35em;
+    margin: 0 auto;
+}
+
+img{
+    height: 35em;
+    position: relative;
+    right: 10em;
+}
+
+#botonComenzar {
+    position: relative;
+    left: 4em;
+    height: 6em;
+    background-color: #4CAF50; 
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;  
+    cursor: pointer;
+}
+
+#botonComenzar:hover {
+    background-color: #3e8e41;  
+    transform: scale(1.05);  
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);  
+}
+
+#botonComenzar h2 {
+    color: white;  
+    font-size: 2.5em;
+    text-decoration: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* Para dispositivos pequeños (teléfonos, <600px) */
+@media screen and (max-width: 600px) {
+    div {
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+        position: static; /* Elimina desplazamientos relativos */
+    }
+
+    #botonComenzar {
+        left: 0;
+        height: 4em;
+        width: 80%; /* Asegura que el botón no ocupe toda la pantalla */
+        margin: 1em auto; /* Centra horizontalmente */
+    }
+
+    #botonComenzar h2 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+/* Para dispositivos medianos (tablets, 600px - 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    div {
+        width: 70%;
+        height: auto;
+    }
+
+    img {
+        height: auto;
+        width: 80%;
+        right: 5em;
+    }
+
+    #botonComenzar {
+        left: 2em;
+        height: 5em;
+    }
+
+    #botonComenzar h2 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+}
+
+/* Para dispositivos grandes (pantallas anchas, >900px) */
+@media screen and (min-width: 901px) {
+    div {
+        width: 35em;
+        height: 35em;
+    }
+
+    img {
+        height: 35em;
+        right: 10em;
+    }
+
+    #botonComenzar {
+        left: 4em;
+        height: 6em;
+    }
+
+    #botonComenzar h2 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+}
