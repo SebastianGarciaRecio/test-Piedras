@@ -5,6 +5,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    background-color: #81e2e6;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 .contenedor {

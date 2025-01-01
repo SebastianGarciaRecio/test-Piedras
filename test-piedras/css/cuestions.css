@@ -6,6 +6,10 @@ body {
     align-items: center;
     margin: 0;
     background-color: #81e2e6;
+    background-image: url("../img/fondoTransparente.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .contenedor {
@@ -20,24 +24,25 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0 auto;
+    background-color: #dccbe4;
+    border: 5px black solid;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0.5em;;
 }
 
-#cpreguntas > p {
+#cpreguntas > p {    
     font-size: 1.8em;
     font-weight: bold;
-    padding: 0.5em 1em;
-    width: 2.5em;
-    height: 1.5em; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+
 }
 
 #pregunta{
     height: 28em;
-    border: 2px black solid;
+    border: 5px black solid;
     background: linear-gradient(135deg, #c5d3e0, #dccbe4);
     border-radius: 10px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
@@ -50,7 +55,7 @@ body {
 }
 
 #respuestas > div {
-    border: 2px solid #333;               
+    border: 3px black solid;        
     background: linear-gradient(135deg, #ffe5b4, #ffc107); 
     height: 6em;
     margin-top: 10px;
