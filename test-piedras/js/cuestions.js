@@ -1,8 +1,8 @@
-const bar = ["/img/bar/0001.png", "/img/bar/0002.png", "/img/bar/0003.png", "/img/bar/0004.png", "/img/bar/0005.png", "/img/bar/0006.png", 
-    "/img/bar/0007.png","/img/bar/0008.png", "/img/bar/0009.png", "/img/bar/0010.png", "/img/bar/0011.png", "/img/bar/0012.png", "/img/bar/0013.png", 
-    "/img/bar/0014.png", "/img/bar/0015.png", "/img/bar/0016.png", "/img/bar/0017.png", "/img/bar/0018.png", "/img/bar/0019.png", "/img/bar/0020.png", 
-    "/img/bar/0021.png","/img/bar/0022.png", "/img/bar/0023.png", "/img/bar/0024.png", "/img/bar/0025.png", "/img/bar/0026.png", "/img/bar/0027.png", 
-    "/img/bar/0028.png","/img/bar/0029.png", "/img/bar/0030.png", "/img/bar/0031.png", "/img/bar/0032.png", "/img/bar/0033.png"
+const bar = ["../img/bar/0001.png", "../img/bar/0002.png", "../img/bar/0003.png", "../img/bar/0004.png", "../img/bar/0005.png", "../img/bar/0006.png", 
+    "../img/bar/0007.png","../img/bar/0008.png", "../img/bar/0009.png", "../img/bar/0010.png", "../img/bar/0011.png", "../img/bar/0012.png", "../img/bar/0013.png", 
+    "../img/bar/0014.png", "../img/bar/0015.png", "../img/bar/0016.png", "../img/bar/0017.png", "../img/bar/0018.png", "../img/bar/0019.png", "../img/bar/0020.png", 
+    "../img/bar/0021.png","../img/bar/0022.png", "../img/bar/0023.png", "../img/bar/0024.png", "../img/bar/0025.png", "../img/bar/0026.png", "../img/bar/0027.png", 
+    "../img/bar/0028.png","../img/bar/0029.png", "../img/bar/0030.png", "../img/bar/0031.png", "../img/bar/0032.png", "../img/bar/0033.png"
 ];
 
 
@@ -70,7 +70,7 @@ function loadQuestion(questionNumber) {
 function showResult() {
     if (answered >= 33) {
         localStorage.setItem('resultado', points);
-        window.location.href = "/html/resultado.html";
+        window.location.href = "../html/resultado.html";
     }
 }
 
