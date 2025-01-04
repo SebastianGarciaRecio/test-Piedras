@@ -35,9 +35,7 @@ body {
 }
 
 #cpreguntas > p {    
-    font-size: 1.8em;
     font-weight: bold;
-
 }
 
 #pregunta{
@@ -92,7 +90,7 @@ img{
     }
 
     #cpreguntas > p {
-        font-size: 1.2em;
+        font-size: 1em;
         padding: 0.5em;
     }
 
