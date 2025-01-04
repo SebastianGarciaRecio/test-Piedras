@@ -51,7 +51,7 @@ const QUESTIONS_ANSWERS = {
     "¿Cómo te sientes ante nuevas oportunidades?": ["Un poco cauteloso, pero dispuesto a intentarlo.", "Entusiasmado, pero me tomo mi tiempo para decidir.", "Totalmente emocionado y listo para actuar."],
     "¿Cómo te enfrentas a tus miedos?": ["Con paciencia y tranquilidad.", "Con esfuerzo y dedicación para superarlos.", "Los enfrento directamente y sin dudar."],
     "¿Cómo describes tu enfoque en la vida?": ["Vivo un día a la vez, buscando paz.", "Busco un equilibrio entre calma y crecimiento.", "Estoy enfocado en alcanzar grandes metas."],
-    "¿Qué tipo de persona prefieres trabajar?": ["Alguien que me ama y me apoya.", "Alguien que me entiende y me ayuda.", "Alguien que me mantiene en contacto."]
+    "": ["", "", ""]
 }
 
 
